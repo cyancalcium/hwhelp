@@ -2,8 +2,9 @@
 <Module>
 <ModulePrefs title=":)"/>
 <Content type="html"><![CDATA[
-<html>
-    <style>
+<!DOCTYPE html>
+<html lang="en">
+    <style type="text/css">
         @import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
         #searchbar{ /* Credits to https://github.com/RicardoMarioSonic123 */
       display: inline-block;
