@@ -76,7 +76,6 @@
         <input id='searchbar' onkeyup='search_button()' type='text' name='search' placeholder='Search' autocomplete="off">
         <span class="close" id="closeX" style="display: none;">&times;</span>
         <iframe id="siteHtml" src="" style="width: 100%; height: 100%; margin: 0px; border: none; display: none;" allowfullscreen></iframe>
-    </body>
     <script type="text/javascript">
         function createArray() {
                 var sites = [
@@ -190,6 +189,7 @@ var dayNum = now.getDate();
   document.querySelector("#dateTime").textContent = `${_day}, ${_month} ${dayNum} ${h}:${m}:${s} ${aop}`
 }
     </script>
+</body>
 </html>  
 ]]></Content>
 </Module>
